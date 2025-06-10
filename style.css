@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+  background-image: url("../assets/images/fon.png");
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: #333;
+}
+
+/* Централизованный блок с информацией */
+.history-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.88);
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  text-align: center;
+}
+
+.history-container h2 {
+  font-size: 28px;
+  margin-bottom: 15px;
+}
+
+.history-container img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.history-container p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.history-container a {
+  font-size: 18px;
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: #003366;
+}
+
+.history-container a:hover {
+  text-decoration: underline;
+  color: #0055aa;
+}
+
+/* Кнопки */
+.button-container {
+  position: fixed;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0050a0;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* === Стили для викторины === */
+.quiz-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  height: 100vh;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.quiz-box {
+  background-color: rgba(255, 255, 255, 0.92);
+  padding: 25px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  max-width: 600px;
+  width: 90%;
+}
+
+.quiz-box h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.quiz-box button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 12px;
+  font-size: 16px;
+  border: none;
+  border-radius: 6px;
+  background-color: #0066cc;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Подсветка ответов */
+.answer-button.correct {
+  background-color: #28a745 !important; /* зелёный */
+  color: white;
+}
+
+.answer-button.incorrect {
+  background-color: #dc3545 !important; /* красный */
+  color: white;
+}
+
+.answer-button:disabled {
+  cursor: default;
+  opacity: 0.9;
+}
+
+.quiz-box button:hover {
+  background-color: #0050a0;
+}

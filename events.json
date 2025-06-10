@@ -1,0 +1,58 @@
+[
+  {
+    "year": "1472",
+    "title": "Вхождение Пермской земли в состав Московского княжества",
+    "description": "В 1472 году Великая Пермь официально вошла в состав Русского государства, что стало ключевым шагом к политическому и культурному сближению с Русью.",
+    "image": "assets/images/fedor.png",
+    "source": "https://ru.wikipedia.org/wiki/Пермь_Великая"
+  },
+  {
+    "year": "1647",
+    "title": "Первое упоминание о поселении",
+    "description": "В переписных книгах воеводы Прокопия Елизарова упоминается починок на реке Егошихе.",
+    "image": "assets/images/fragment.png",
+    "source": "https://ru.wikipedia.org/wiki/История_Перми"
+  },
+  {
+    "year": "1723",
+    "title": "Основание Перми",
+    "description": "Пётр I приказал основать медеплавильный завод, что стало началом развития города.",
+    "image": "assets/images/dva.jpg",
+    "source": "https://interesnyefakty.com/novosti/kak-byla-osnovana-perm-i-kakie-klyuchevye-sobytiya-eyo-istorii"
+  },
+  {
+    "year": "1781",
+    "title": "Присвоение статуса города",
+    "description": "Пермь официально стала губернским городом Российской империи.",
+    "image": "assets/images/gorod.png",
+    "source": "https://interesnyefakty.com/novosti/kak-byla-osnovana-perm-i-kakie-klyuchevye-sobytiya-eyo-istorii"
+  },
+  {
+    "year": "1916",
+    "title": "Основание Пермского университета",
+    "description": "Пермский государственный университет стал первым университетом на Урале, оказав огромный вклад в образование и науку региона.",
+    "image": "assets/images/university.jpg",
+    "source": "https://100.psu.ru/history/"
+  },
+  {
+    "year": "1918",
+    "title": "Пермская операция",
+    "description": "Красная армия освободила Пермь от белогвардейцев во время Гражданской войны.",
+    "image": "assets/images/katastrofa.png",
+    "source": "https://ru.wikipedia.org/wiki/История_Перми"
+  },
+  {
+    "year": "1941",
+    "title": "Вклад Перми в Великую Отечественную войну",
+    "description": "Город стал важным промышленным центром, производя вооружение для фронта.",
+    "image": "assets/images/war.png",
+    "source": "https://interesnyefakty.com/novosti/kak-byla-osnovana-perm-i-kakie-klyuchevye-sobytiya-eyo-istorii"
+  },
+  {
+    "year": "2009",
+    "title": "Пермь — культурная столица",
+    "description": "Город получил статус культурной столицы России благодаря развитию искусства и театра.",
+    "image": "assets/images/nowadays.jpg",
+    "source": "https://ru.wikipedia.org/wiki/История_Перми"
+  }
+]
